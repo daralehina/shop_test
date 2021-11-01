@@ -1,0 +1,138 @@
+body{
+    font-family: Roboto;
+}
+
+.container{
+    max-width: 1328px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+@media (max-width: 1300px){
+    .container{
+        max-width: 950px;
+    }
+}
+
+@media (max-width: 1050px){
+    .container{
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 767px){
+    .container{
+        max-width: 480px;
+    }
+}
+
+.header_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo{
+    flex: 9.5%;
+    padding-right: 10px;
+}
+
+.heaeder_search{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border: solid silver 1px;
+    width: 997px;
+    flex: 75%;
+}
+
+.header_search_input{
+    flex: 95%;
+    height: 40px;
+    border: none;
+    padding-left: 5px;
+}
+
+.header_search_button{
+    flex: 5%;
+    /*height: 40px;*/
+    border: none;
+    background: none;
+    background: url(../pictures/header/search_icon.png) no-repeat;
+    background-position: center;
+    padding: 0px;
+}
+
+.header_icon_button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header_icon_office{
+    background: url(../pictures/header/icon1.png) no-repeat;
+    background-position: center;
+}
+
+.header_icon_stat{
+    background: url(../pictures/header/icon2.png) no-repeat;
+    background-position: center;
+}
+
+.header_icon_like{
+    background: url(../pictures/header/icon3.png) no-repeat;
+    background-position: center;
+}
+
+.header_icon_basket{
+    background: url(../pictures/header/icon4.png) no-repeat;
+    background-position: center;
+}
+
+.header_icons{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 172px;
+    flex: 13%;
+}
+
+.header_icon{
+    width: 40px;
+    height: 40px;
+    margin-right: 4px;
+}
+
+.header_icon:last-child{
+    margin-right: 0px;
+}
+
+.header_list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 0; 
+    padding-left: 0; 
+}
+
+.header_item{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.header_link{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.72);
+}
+
+
