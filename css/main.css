@@ -134,7 +134,7 @@ section{
 }
 
 .main_hits_wrapper{
-    display: flex;
+    display: inline-flex;
     flex-wrap: nowrap;
     align-items: stretch;
     justify-content: space-between;
@@ -146,6 +146,7 @@ section{
 .main_hits_cart{
     width: 223px;
     padding: 10px;
+    margin-right: 20px;
     position: relative;
 }
 

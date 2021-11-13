@@ -10,19 +10,19 @@ body{
 
 @media (max-width: 1300px){
     .container{
-        max-width: 980px;
+        max-width: 1024px;
     }
 }
 
 @media (max-width: 1050px){
     .container{
-        max-width: 740px;
+        max-width: 780px;
     }
 }
 
 @media (max-width: 767px){
     .container{
-        max-width: 500px;
+        max-width: 510px;
     }
 }
 
@@ -94,6 +94,17 @@ body{
     background-position: center;
 }
 
+.header_icon_counter{
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    background-color: #3389BA;
+    border-radius: 50%;
+    color: #fff;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
 .header_icons{
     display: flex;
     flex-wrap: nowrap;
@@ -107,6 +118,7 @@ body{
     width: 40px;
     height: 40px;
     margin-right: 4px;
+    position: relative;
 }
 
 .header_icon:last-child{

@@ -1,19 +1,19 @@
 let offset = 0;
 const sliderLine = document.querySelector('.main_hits_wrapper');
 
-
-
 document.querySelector('.main_hits_arrow_right').addEventListener('click', function () {
-    offset = offset + 243;
+    offset = offset + 265;
     let container_width = document.querySelector('.container').offsetWidth;
-    if(offset > (1328 - container_width)) { offset = 0; }
+    let sliderLine_width = sliderLine.offsetWidth;
+    if(offset > (sliderLine_width - container_width)) { offset = 0; }
     sliderLine.style.left = -offset + 'px';
 });
 
 document.querySelector('.main_hits_arrow_left').addEventListener('click', function () {
-    offset = offset - 243;
+    offset = offset - 265;
     let container_width = document.querySelector('.container').offsetWidth;
-    if(offset < 0) { offset = (1328 - container_width); }
+    let sliderLine_width = sliderLine.offsetWidth;
+    if(offset < 0) { offset = (sliderLine_width - container_width); }
     sliderLine.style.left = -offset + 'px';
 });
 
